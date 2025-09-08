@@ -27,3 +27,13 @@ It can be used as the backend for a Notes web or mobile application.
 ---
 
 ## 📂 Project Structure
+
+backend_notes/
+├── src/main/java/com/example/backend_notes/
+│ ├── controller/ # REST controllers (API endpoints)
+│ ├── model/ # Note entity
+│ ├── repository/ # Spring Data JPA repositories
+│ 
+├── src/main/resources/
+│ ├── application.properties # DB & project config
+├── pom.xml # Maven dependencies
